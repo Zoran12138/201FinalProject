@@ -1,5 +1,5 @@
 # 201FinalProject
 
-TEAM NAME: B-OrAbove
+TEAM NAME: OhCaptainMyCaptain
 
 Members: Zherong Yu + Haoyang Li
