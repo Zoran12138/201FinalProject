@@ -1,5 +1,5 @@
 # 201FinalProject
 
-TEAM NAME: B- or above
+TEAM NAME: B-OrAbove
 
 Members: Zherong Yu + Haoyang Li
