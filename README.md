@@ -9,9 +9,9 @@ Members: Zherong Yu + Haoyang Li
 This project builds a Speaker Recognition system which aims to determine which speaker said a particular piece of audio. 
 The system was built using:
 
-1.Feature Extraction with Mel-Frequency Cepstral Coefficients (MFCC)
+1.**Feature Extraction** with Mel-Frequency Cepstral Coefficients (MFCC)
 
-2.Vector Quantization (VQ) via the Linde-Buzo-Gray (LBG) clustering algorithm, to create speaker-specific codebooks
+2.**Vector Quantization** (VQ) via the Linde-Buzo-Gray (LBG) clustering algorithm, to create speaker-specific codebooks
 
 3.A standard matching procedure that compares test-speech MFCC vectors against each speaker’s VQ codebook
 
