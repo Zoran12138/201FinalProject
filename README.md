@@ -4,7 +4,7 @@ TEAM NAME: OhCaptainMyCaptain
 
 Members: Zherong Yu + Haoyang Li
 
-**Overview**
+#**Overview**
 
 This project builds a Speaker Recognition system which aims to determine which speaker said a particular piece of audio. 
 The system was built using:
