@@ -107,6 +107,7 @@ Test 6: Generating LBG codewords and plotting them over the MFCC scatter.
 
 Test 7: Full speaker recognition with multiple training/testing sets, measuring final accuracy.
 Results show that our system yield a training accuracy of 100% and a testing accuracy of 87.5%.
+
 <img width="366" alt="60ee8ecc7e49f1f3c10c39a3bec2a29" src="https://github.com/user-attachments/assets/5f9a502c-7d4a-4e76-8778-f055e272850f" />
 
 <img width="402" alt="7d1babf60c732093ad7b4287eb5f0a3" src="https://github.com/user-attachments/assets/8b72a61e-a20e-4e76-af73-e71f655e29f0" />
