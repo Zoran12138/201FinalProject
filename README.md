@@ -94,10 +94,6 @@ Use STFT to generate periodogram.
 Test 3: Plot the mel-spaced filter bank responses.
 ![image](https://github.com/user-attachments/assets/a3d77328-4543-41af-80fe-238a88e464bf)
 
-Compute and plot the spectrum of a speech file before and after the melfrequency wrapping step.
-
-![image](https://github.com/user-attachments/assets/71e33125-3d73-4777-8bf8-dd33b4e81d8d)
-
 ![image](https://github.com/user-attachments/assets/56533c4e-9d28-4f1e-8bc7-7e710b9bca00)
 
 
