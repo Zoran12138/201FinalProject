@@ -115,8 +115,34 @@ Results show that our system yield a training accuracy of 100% and a testing acc
 
 
 Test 8: Applying notch filters to the test signals, verifying how the system performance is affected. 
-Test 9: Extending the system to more speakers, additional data, or different words (“zero” -> “twelve,” plus new students’ voices). 
-Test 10: Attempting multiword or multi-speaker tasks, evaluating how the system recognizes both the word and the speaker.
+
+<img width="347" alt="413cbb9975adcf1474aec061811e6f2" src="https://github.com/user-attachments/assets/2d13b03b-f980-4d67-8c44-04ef08c58f39" />
+
+Test 9:  
+(a)Randomly select speech “zero” of 10 students from  2024 we recorded twice: one for training and one for recognition test.  (b) Next, retrain your system   by adding 2024 recorded speech to our existing speakers’ samples. Now we get the test accuracy of 83.33%， which is lower than the one we obtained in TEST7. 
+
+<img width="437" alt="915d6b692ad02069022324fee9d4f20" src="https://github.com/user-attachments/assets/41519f82-af04-42c1-b345-c9bb0de53981" />
+
+
+Test 10a: 
+
+Q1：For Q1, we test "twelve" and "zero" together. After analyzing the results of "twelve" and "zero" separately, we get test accuracy of "zero" to be 100% and test accuracy of "twelve" to be 94.4%.
+
+<img width="405" alt="456293d082bb8dd3d7d3144c89ad9f9" src="https://github.com/user-attachments/assets/1bd44613-b7bf-4fa7-adf4-10b4894ec3be" />
+
+Q2: If we train a whole system that tries to identify a) which speaker, and b) whether the speech is "zero" or "twelve", we get the test accuracy of 80.56%.
+
+https://github.com/Zoran12138/201FinalProject/blob/4e37fb44a7981819b8e3a1f4bc36d2005f2526c6/10aq2.pdf
+
+Test 10b:
+
+Q3: For Q3, we test "Five" and "Eleven" together. After analyzing the results of "Five" and "Eleven" separately, we get test accuracy of "eleven" to be 100% and test accuracy of "five" to be 95.7%.
+
+<img width="415" alt="f4e8e6203f249d07fe2b6b4f2d70bce" src="https://github.com/user-attachments/assets/39ddfdbc-bc98-4b8e-95a7-a263f8bd6c65" />
+
+
+Q4：Compared to 10aQ1, it has higher accuracy.
+
 
 
 
