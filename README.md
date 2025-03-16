@@ -83,9 +83,13 @@ We performed a series of tests (labeled “Test 1” through “Test 10,” etc.
 
 Test 1: Our human performance recognition rate is 72.7%.
 
-Test 2: After the normalization of the raw data from "train" folder, we plot the signal in time domain. 
+Test 2: After the normalization of the 11 raw data from "train" folder, we plot the signal in time domain. 
 
 ![image](https://github.com/user-attachments/assets/ec035457-5611-482c-ac0f-6dbe0161a993)
+
+Use STFT to generate periodogram.
+![image](https://github.com/user-attachments/assets/9be3497c-099e-4b29-964f-b2d3d74c0278)
+
 
 Test 3: Plot the mel-spaced filter bank responses.
 ![image](https://github.com/user-attachments/assets/a3d77328-4543-41af-80fe-238a88e464bf)
@@ -93,9 +97,16 @@ Test 3: Plot the mel-spaced filter bank responses.
 The explanation of the impact of the melfb.m is described in https://github.com/Zoran12138/201FinalProject/blob/ef75104a93adafd676167c7d09a5243cbf555e4b/src/melfb.m
 
 Test 4: Combining all steps into an MFCC extraction function. 
+https://github.com/Zoran12138/201FinalProject/blob/9d14b0f85faca1eabc60f4d0791c73ff63b92f6b/src/computeMFCC_all.m
+
 Test 5: Visualizing MFCC 2D scatter for different speakers. 
+![image](https://github.com/user-attachments/assets/4d6a16d2-8bfb-4050-99c6-0fda243f13a0)
+
 Test 6: Generating LBG codewords and plotting them over the MFCC scatter. 
+![image](https://github.com/user-attachments/assets/c4431e23-38e1-4fb9-b516-6327ac0fd363)
+
 Test 7: Full speaker recognition with multiple training/testing sets, measuring final accuracy. 
+
 Test 8: Applying notch filters to the test signals, verifying how the system performance is affected. 
 Test 9: Extending the system to more speakers, additional data, or different words (“zero” -> “twelve,” plus new students’ voices). 
 Test 10: Attempting multiword or multi-speaker tasks, evaluating how the system recognizes both the word and the speaker.
