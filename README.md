@@ -94,10 +94,20 @@ Use STFT to generate periodogram.
 Test 3: Plot the mel-spaced filter bank responses.
 ![image](https://github.com/user-attachments/assets/a3d77328-4543-41af-80fe-238a88e464bf)
 
+Compute and plot the spectrum of a speech file before and after the melfrequency wrapping step.
+
+![image](https://github.com/user-attachments/assets/71e33125-3d73-4777-8bf8-dd33b4e81d8d)
+
+![image](https://github.com/user-attachments/assets/56533c4e-9d28-4f1e-8bc7-7e710b9bca00)
+
+
 The explanation of the impact of the melfb.m is described in https://github.com/Zoran12138/201FinalProject/blob/ef75104a93adafd676167c7d09a5243cbf555e4b/src/melfb.m
 
 Test 4: Combining all steps into an MFCC extraction function. 
 https://github.com/Zoran12138/201FinalProject/blob/9d14b0f85faca1eabc60f4d0791c73ff63b92f6b/src/computeMFCC_all.m
+
+![image](https://github.com/user-attachments/assets/b795dfe3-541e-42e0-b38b-a64311e05840)
+
 
 Test 5: Visualizing MFCC 2D scatter for different speakers. 
 ![image](https://github.com/user-attachments/assets/4d6a16d2-8bfb-4050-99c6-0fda243f13a0)
