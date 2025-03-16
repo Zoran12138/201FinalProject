@@ -17,7 +17,7 @@ The system was built using:
 
 The project also explores robustness tests by applying notch filters (or other distortions) to the test data, as well as additional tasks such as identifying not only which speaker but also which word (e.g., “zero” or “twelve”).
 
-**This system achieved 100% accuracy on training data. For testing data, accuracy ranged from % to %, depending on the speaker set and environmental noise.**
+**This system achieved 100% accuracy on training data. For testing data, when it only needs to recognize the speaker, accuracy ranged from % to %, depending on the speaker set and environmental noise.**
 
 
 
