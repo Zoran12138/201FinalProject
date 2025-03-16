@@ -81,13 +81,17 @@ For a new utterance, compute its MFCC features. Compare each feature vector to t
 # Implementation & Results
 We performed a series of tests (labeled “Test 1” through “Test 10,” etc.):
 
-TEST 1: Our human performance recognition rate is 72.7%.
+Test 1: Our human performance recognition rate is 72.7%.
 
 Test 2: After the normalization of the raw data from "train" folder, we plot the signal in time domain. 
 
 ![image](https://github.com/user-attachments/assets/ec035457-5611-482c-ac0f-6dbe0161a993)
 
-Test 3: Plotting mel filter bank responses, comparing with theoretical triangular shapes. 
+Test 3: Plot the mel-spaced filter bank responses.
+![image](https://github.com/user-attachments/assets/a3d77328-4543-41af-80fe-238a88e464bf)
+
+The explanation of the impact of the melfb.m is described in src/melfb.m
+
 Test 4: Combining all steps into an MFCC extraction function. 
 Test 5: Visualizing MFCC 2D scatter for different speakers. 
 Test 6: Generating LBG codewords and plotting them over the MFCC scatter. 
