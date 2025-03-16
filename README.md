@@ -90,7 +90,7 @@ Test 2: After the normalization of the raw data from "train" folder, we plot the
 Test 3: Plot the mel-spaced filter bank responses.
 ![image](https://github.com/user-attachments/assets/a3d77328-4543-41af-80fe-238a88e464bf)
 
-The explanation of the impact of the melfb.m is described in src/melfb.m
+The explanation of the impact of the melfb.m is described in https://github.com/Zoran12138/201FinalProject/blob/ef75104a93adafd676167c7d09a5243cbf555e4b/src/melfb.m
 
 Test 4: Combining all steps into an MFCC extraction function. 
 Test 5: Visualizing MFCC 2D scatter for different speakers. 
