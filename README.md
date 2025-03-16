@@ -73,13 +73,28 @@ The speaker recognition pipeline comprises the following steps:
 
 ## Vector Quantization and Codebooks
 1.Training:
-
 Aggregate all MFCC feature vectors from a given speaker. Use LBG clustering to split them into Q clusters, producing Q centroids. These centroids (codewords) form the speaker’s VQ codebook.
 
-Testing:
-
+2.Testing:
 For a new utterance, compute its MFCC features. Compare each feature vector to the codewords in each speaker’s codebook using Euclidean distance. Compute the average distortion to each speaker’s codebook and pick the speaker with the smallest distortion as the recognized identity.
 
+# Implementation & Results
+We performed a series of tests (labeled “Test 1” through “Test 10,” etc.):
+
+TEST 1: Our human performance recognition rate is 72.7%.
+
+Test 2: After the normalization of the raw data from "train" folder, we plot the signal in time domain. 
+
+![image](https://github.com/user-attachments/assets/ec035457-5611-482c-ac0f-6dbe0161a993)
+
+Test 3: Plotting mel filter bank responses, comparing with theoretical triangular shapes. 
+Test 4: Combining all steps into an MFCC extraction function. 
+Test 5: Visualizing MFCC 2D scatter for different speakers. 
+Test 6: Generating LBG codewords and plotting them over the MFCC scatter. 
+Test 7: Full speaker recognition with multiple training/testing sets, measuring final accuracy. 
+Test 8: Applying notch filters to the test signals, verifying how the system performance is affected. 
+Test 9: Extending the system to more speakers, additional data, or different words (“zero” -> “twelve,” plus new students’ voices). 
+Test 10: Attempting multiword or multi-speaker tasks, evaluating how the system recognizes both the word and the speaker.
 
 
 
