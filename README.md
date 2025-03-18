@@ -97,7 +97,20 @@ https://github.com/Zoran12138/201FinalProject/blob/7a3beb92b4d441cbc770e8699b3b9
 Creates a codebook (vector quantization) from a set of MFCC vectors.We represent each word or speaker by a small set of codeword centroids. Classification then checks which codebook yields the smallest distortion to a test MFCC sample.
 
 4. Pipeline Scripts
+<img width="515" alt="591de48949501bb782d5f18d4181a1b" src="https://github.com/user-attachments/assets/b2776f01-5e00-4782-8b01-550125a3606d" />
+
 https://github.com/Zoran12138/201FinalProject/blob/492ab22426975b94b36af5d82b5a89a7d8de93f3/src/test10a_b_twoStage_speakerWord_modified.m
+Pipeline operation flow is approximately as follows:
+
+Audio Input ⇒ Extract MFCC.
+Stage A (Word):
+Compare the input MFCC with each “word” model (e.g., word=1 or word=2), and pick the one with the smallest distance.
+Output the predicted word.
+Stage B (Speaker):
+Based on the predicted word from Stage A, switch to the corresponding speaker model set (i.e., “word=1” speaker models or “word=2” speaker models).
+Compare distances and select the speaker model with the minimal distortion.
+Output the predicted speaker.
+Final Result
 ## Results
 
 We performed a series of tests (labeled “Test 1” through “Test 10,” etc.):
