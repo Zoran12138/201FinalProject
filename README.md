@@ -79,8 +79,9 @@ Aggregate all MFCC feature vectors from a given speaker. Use LBG clustering to s
 For a new utterance, compute its MFCC features. Compare each feature vector to the codewords in each speaker’s codebook using Euclidean distance. Compute the average distortion to each speaker’s codebook and pick the speaker with the smallest distortion as the recognized identity.
 
 # Implementation & Results
-Implementation
+## Implementations
 
+## Results
 We performed a series of tests (labeled “Test 1” through “Test 10,” etc.):
 
 Test 1: Our human performance recognition rate is 72.7%.
