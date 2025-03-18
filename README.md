@@ -84,6 +84,7 @@ This project consists of several critical functions and scripts that, together, 
 
 1. melfb.m
 <img width="269" alt="c1a4ddaf9c0b773b6b94b148d896833" src="https://github.com/user-attachments/assets/b95143d2-d1b5-4f61-813f-b57baa796829" />
+
 Builds a Mel-spaced triangular filter bank.This helps wrap the linear frequency axis into a mel scale, reflecting human auditory perception. It is used inside the MFCC extraction step to transform each STFT power spectrum into mel-frequency bins.
 
 2. MFCC Extraction
