@@ -80,6 +80,17 @@ For a new utterance, compute its MFCC features. Compare each feature vector to t
 
 # Implementation & Results
 ## Implementations
+This project consists of several critical functions and scripts that, together, build a two-stage speaker recognition system (or an all-in-one approach). Here is a short overview of the main code segments and their purpose.https://github.com/Zoran12138/201FinalProject/blob/7a3beb92b4d441cbc770e8699b3b9b5502657d63/src/runLBG.m
+
+1. melfb.m
+<img width="269" alt="c1a4ddaf9c0b773b6b94b148d896833" src="https://github.com/user-attachments/assets/b95143d2-d1b5-4f61-813f-b57baa796829" />
+Builds a Mel-spaced triangular filter bank.
+Purpose: Builds a Mel-spaced triangular filter bank.
+How It Runs:
+Takes number of filters p, FFT size n, and sampling rate fs.
+Constructs a sparse matrix m of size (p x (n/2 +1)), where each row is one mel-scale triangular filter.
+Why: This helps wrap the linear frequency axis into a mel scale, reflecting human auditory perception. It is used inside the MFCC extraction step to transform each STFT power spectrum into mel-frequency bins.
+
 
 ## Results
 We performed a series of tests (labeled “Test 1” through “Test 10,” etc.):
