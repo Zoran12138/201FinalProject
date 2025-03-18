@@ -89,6 +89,7 @@ Builds a Mel-spaced triangular filter bank.This helps wrap the linear frequency 
 
 2. MFCC Extraction
 <img width="335" alt="42bed3a5f43a4c0ce3d8a7ce52e72d2" src="https://github.com/user-attachments/assets/18e33fd5-705c-41ad-af56-adff2eb6bd07" />
+
 Converts raw audio frames into Mel-Frequency Cepstral Coefficients (MFCC).This function is central to extracting speaker-relevant features from each audio file before classification.
 
 3. runLBG.m
