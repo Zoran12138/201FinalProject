@@ -58,7 +58,7 @@ Test: Audio files used to evaluate how well the trained system identifies unseen
 
 
 # Approach
-The speaker recognition pipeline comprises the following steps:
+The speaker recognition comprises the following steps:
 
 ## Feature Extraction (MFCC)
 1.Frame Blocking: Segment the raw audio into frames of 𝑁=256 samples, with an overlap of N−M (e.g., M=100).
